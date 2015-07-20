@@ -1,7 +1,14 @@
 'use strict';
 
-define(['react', 'leaflet'], function(React) {
+define(['react'], function(React) {
 
+    return React.createClass({
+        render: function () {
+            return <h1>HEY USERS</h1>;
+        }
+    });
+
+    /*
     return React.createClass({
         uid: function() {
             var uid = 0;
@@ -10,9 +17,9 @@ define(['react', 'leaflet'], function(React) {
             };
         },
         getInitialState: function() {
-            /*return {
-                uid: this.uid()
-            }*/
+            //return {
+              //  uid: this.uid()
+            //}
             return {};
         },
         componentDidMount: function() {
@@ -30,5 +37,6 @@ define(['react', 'leaflet'], function(React) {
             return (<div className="map" id="map"> </div>)
         }
     });
+    */
 
 });

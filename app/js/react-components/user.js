@@ -3,7 +3,13 @@
 define(['react'], function(React) {
 
     return React.createClass({
+        render: function () {
+            return <h5>USER</h5>;
+        }
+    });
 
+    /*return React.createClass({
+        
         getInitialState: function() {
             // This is called before our render function. The object that is 
             // returned is assigned to this.state, so we can use it later.
@@ -28,5 +34,6 @@ define(['react'], function(React) {
             return <input type="text" value={message} onChange={this.handleChange} />;
           }
     });
+    */
 
 });
