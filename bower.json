@@ -17,8 +17,8 @@
     "react": "~0.13.3",
     "requirejs": "~2.1.18",
     "require-jsx": "*",
-    "leaflet": "~0.7.3",
     "gulp": "~3.9.0",
-    "react-router": "~0.13.3"
+    "react-router": "~0.13.3",
+    "bootstrap": "~3.3.5"
   }
 }

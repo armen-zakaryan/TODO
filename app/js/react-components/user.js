@@ -3,8 +3,15 @@
 define(['react'], function(React) {
 
     return React.createClass({
+        componentDidMount: function () {
+            var id = this.props.params.id;
+            debugger
+            fetchMessage(id, function (err, message) {
+                this.setState({ message: message });
+            })
+        },
         render: function () {
-            return <h5>USER</h5>;
+            return <h4> USER.......... </h4>;
         }
     });
 
