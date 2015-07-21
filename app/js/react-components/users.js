@@ -1,12 +1,28 @@
 'use strict';
 
-define(['react'], function(React) {
+define(['react', 'react-router'], function(React, Router) {
+    var RouteHandler = Router.RouteHandler;
 
     return React.createClass({
         render: function () {
-            return <h1>HEY USERS</h1>;
+            return <div><h1>HEY USERS</h1><RouteHandler /></div>;
         }
     });
+
+
+/*
+    return React.createClass({
+        render: function () {
+            return 
+                <div>
+                    <h1>HEY USERS</h1>
+                    <RouteHandler />
+                </div>;
+        }
+    });
+*/
+
+
 
     /*
     return React.createClass({
